@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container">
+    <h1>Hello World!</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="/static/assets/icon_SuperCloud_rgb.png" width="250px" alt="Team Mythos"/>
+        </div>
+        <div class="col-md-6">
+            <code><pre>{{release_info }}</pre></code>
+        </div>
+    </div>
+    <div class="row">
+        <h2>Why is Python a good programming language?</h2>
+        <h3>Python version: {{version}}</h3>
+        <p>Python is a general-purpose, high-level programming language that is relatively easy to learn, yet powerful
+            enough to be used in a wide variety of applications. It is a popular choice for beginners and experienced
+            programmers alike, as it is relatively easy to learn and use. Python is also a popular choice for data science
+            and machine learning applications, as it has a wide range of libraries and tools available.</p>
+        <p>Python is a good programming language because it is:</p>
+        <ul>
+            <li>Easy to learn:</li> Python is a relatively easy language to learn, even for beginners. The syntax is simple
+            and straightforward, and there are many resources available to help you learn the language.</li>
+            <li>Versatile:</li> Python can be used for a wide variety of tasks, from web development to data science. There
+            are many libraries and frameworks available for Python, which makes it a versatile language for a wide range of
+            applications.</li>
+            <li>Powerful:</li> Python is a powerful language that can be used to create complex applications. It is a good
+            choice for data science and machine learning applications, as it has a wide range of libraries and tools
+            available.</li>
+            <li>Portable:</li> Python is a portable language that can be run on a variety of platforms, including Windows,
+            Linux, and macOS. This makes it a good choice for cross-platform development.</li>
+            <li>Extensible:</li> Python can be extended with new libraries and modules, which makes it a flexible language
+            that can be used for a wide variety of tasks.</li>
+            <li>Free and open source:</li> Python is a free and open source language, which means that it is available to
+            everyone. This makes it a good choice for beginners and experienced programmers alike.</li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}
